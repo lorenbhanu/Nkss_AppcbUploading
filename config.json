@@ -1,0 +1,43 @@
+{
+	"BootUpSettings": 
+	{		
+		"Interval":60
+	},
+	"ConfigSettings": 
+	{		
+		"realtimeUploadurl": "http://aprtpms.ap.gov.in/APPCB/realTimeUpload",
+		"delayuploadurl": "http://aprtpms.ap.gov.in/APPCB/delayedUpload",
+		"RawDataPath": "/root/onion/env/SPCB",
+		"nooffiles": 100,
+		"zipfile": "/root/onion/Nkss_AppcbUploading/AppcbZipFiles",
+		"metafile": "/root/onion/Nkss_AppcbUploading/Meta/metadata.csv",
+		"datafile": "/root/onion/Nkss_AppcbUploading/Data/",		
+		"StorePath": "/root/onion/Nkss_AppcbUploading/Logs/"
+	},
+	"AppcbStations": 
+	[
+    {
+		"siteId": "site_1434",
+		"siteKey": "c2l0ZV8xNDM0LHZlcl8yLjA=########",
+		"stationId": 1123,
+		"sitedatafrom": "DB"		
+    }
+	],
+	"Channels": 
+	[
+    {
+		"Id": 1701,
+		"StationId": 1123,
+		"ChannelName": "Flow",
+		"PCBChannelName": "Flow",
+		"ANALYZER_ID": "analyzer_390",
+		"UNIT_ID": "unit_12",
+		"MonitoringUnitId": "ETP",
+		"ParameterId": "parameter_81",
+		"siteId": "site_1434",
+		"SiteUid": "site_1434",
+		"CalibrationFlag": 0,
+		"MaintenanceFlag": 0		
+    }
+	]
+}
